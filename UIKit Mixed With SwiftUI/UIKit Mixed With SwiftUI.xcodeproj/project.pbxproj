@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		714830FD27FBA14C00431176 /* ProfileAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714830FC27FBA14C00431176 /* ProfileAvatar.swift */; };
+		714830FF27FBA9F400431176 /* SettingsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714830FE27FBA9F400431176 /* SettingsButtonView.swift */; };
 		71BAE8D227FB9EF100EC6B66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAE8D127FB9EF100EC6B66 /* AppDelegate.swift */; };
 		71BAE8D427FB9EF100EC6B66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAE8D327FB9EF100EC6B66 /* SceneDelegate.swift */; };
 		71BAE8D627FB9EF100EC6B66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAE8D527FB9EF100EC6B66 /* ViewController.swift */; };
 		71BAE8D927FB9EF100EC6B66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BAE8D727FB9EF100EC6B66 /* Main.storyboard */; };
 		71BAE8DB27FB9EF200EC6B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BAE8DA27FB9EF200EC6B66 /* Assets.xcassets */; };
 		71BAE8DE27FB9EF200EC6B66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BAE8DC27FB9EF200EC6B66 /* LaunchScreen.storyboard */; };
+		71BAE8E627FB9FAB00EC6B66 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAE8E527FB9FAB00EC6B66 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		714830FC27FBA14C00431176 /* ProfileAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAvatar.swift; sourceTree = "<group>"; };
+		714830FE27FBA9F400431176 /* SettingsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButtonView.swift; sourceTree = "<group>"; };
 		71BAE8CE27FB9EF100EC6B66 /* UIKit Mixed With SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit Mixed With SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BAE8D127FB9EF100EC6B66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71BAE8D327FB9EF100EC6B66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		71BAE8DA27FB9EF200EC6B66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71BAE8DD27FB9EF200EC6B66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71BAE8DF27FB9EF200EC6B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BAE8E527FB9FAB00EC6B66 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				71BAE8D127FB9EF100EC6B66 /* AppDelegate.swift */,
 				71BAE8D327FB9EF100EC6B66 /* SceneDelegate.swift */,
 				71BAE8D527FB9EF100EC6B66 /* ViewController.swift */,
+				71BAE8E527FB9FAB00EC6B66 /* SettingsView.swift */,
 				71BAE8D727FB9EF100EC6B66 /* Main.storyboard */,
 				71BAE8DA27FB9EF200EC6B66 /* Assets.xcassets */,
 				71BAE8DC27FB9EF200EC6B66 /* LaunchScreen.storyboard */,
 				71BAE8DF27FB9EF200EC6B66 /* Info.plist */,
+				714830FC27FBA14C00431176 /* ProfileAvatar.swift */,
+				714830FE27FBA9F400431176 /* SettingsButtonView.swift */,
 			);
 			path = "UIKit Mixed With SwiftUI";
 			sourceTree = "<group>";
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				71BAE8D627FB9EF100EC6B66 /* ViewController.swift in Sources */,
+				714830FF27FBA9F400431176 /* SettingsButtonView.swift in Sources */,
+				714830FD27FBA14C00431176 /* ProfileAvatar.swift in Sources */,
+				71BAE8E627FB9FAB00EC6B66 /* SettingsView.swift in Sources */,
 				71BAE8D227FB9EF100EC6B66 /* AppDelegate.swift in Sources */,
 				71BAE8D427FB9EF100EC6B66 /* SceneDelegate.swift in Sources */,
 			);
